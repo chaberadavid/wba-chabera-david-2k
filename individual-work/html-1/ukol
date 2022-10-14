@@ -1,0 +1,21 @@
+<DOCTYPE html>
+    <html lang="cs-cz">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible">
+            <meta name="viewreport" content="width-device-width" initial-scale="1.0">
+            <Title>Smostantna prace</Title>
+        </head>
+        <body>
+            <h1>Nadpis h1</h1>
+            <h2>Nadpis h2</h2>
+            <h3>Nadpis h3</h3>
+            <h4>Nadpis h4</h4>
+            <h5>Nadpis h5</h5>
+            <h6>Nadpis h6</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio similique repellat cum id iste ad voluptatum soluta nemo impedit. Assumenda odio minima voluptas quo minus tenetur officia et consequatur quidem?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nulla deleniti saepe dolore facere distinctio voluptate dolor iusto, maiores sed ipsam nisi error, qui praesentium possimus, repudiandae nesciunt beatae quaerat!</p>
+            <a href="ssps.cz">ssps.cz</a>
+            <img src="/opice.jpg" alt="obrazek">
+        </body>
+    </html>
