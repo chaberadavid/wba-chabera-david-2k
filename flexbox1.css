@@ -1,0 +1,15 @@
+#box{
+    width: 1200px;
+    height: 270px;
+    background: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+#item1{
+    width: 300px;
+    height: 250px;
+    background: white;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
