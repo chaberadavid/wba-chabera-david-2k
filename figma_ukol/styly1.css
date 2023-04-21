@@ -177,7 +177,7 @@
     display: grid;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(2, 156px);
-    height: 774px;
+    min-height: 750px;
     justify-content: center;
     align-content: center;
     gap: 20px;
