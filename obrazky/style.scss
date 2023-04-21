@@ -1,0 +1,14 @@
+.grid-container{
+    width: 1440px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: repeat(3, 480px);
+    grid-template-rows: repeat(3, 250px);
+    
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}

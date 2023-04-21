@@ -1,0 +1,367 @@
+@media screen and (max-width: 390px) {
+  body {
+    max-width: 390px;
+  }
+  header {
+    height: 80px;
+    width: 390px;
+    background: #CBC1B1;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+  }
+  header .logo {
+    top: 7.5px;
+  }
+  header .burger {
+    top: 25px;
+  }
+  footer {
+    height: 80px;
+    width: 390px;
+    background: #CBC1B1;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    bottom: 0px;
+    position: relative;
+  }
+  footer p {
+    padding-top: 10px;
+    font-size: 12.5px;
+  }
+  .logo {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 35px;
+    left: -100px;
+  }
+  .sekce1 {
+    width: 390px;
+    max-height: 450px;
+  }
+  .nadpis {
+    font-size: 15px;
+    text-align: center;
+  }
+  #box {
+    display: none !important;
+  }
+  .item {
+    display: none !important;
+  }
+  .huh {
+    height: 1050px;
+    width: 390px;
+  }
+  .grid-cont {
+    display: grid;
+    grid-template-columns: 390px;
+    grid-template-rows: repeat(6, 70px);
+    min-height: 750px;
+    width: 390px;
+    gap: 10px;
+  }
+  .grid-cont img {
+    height: 50px;
+    width: 50px;
+  }
+  .grid-cont p {
+    font-size: 10px;
+  }
+  .grid-cont .item3 {
+    width: 200px;
+    place-self: center;
+  }
+  .huh {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .grid-con2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .grid-con2 img {
+    width: 115px;
+    height: 115px;
+  }
+  .grid-con2 h2 {
+    font-size: 15px;
+  }
+  .grid-con2 p {
+    font-size: 12.5px;
+    width: 200px;
+  }
+  .obrazek {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .item1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    width: 350px;
+  }
+  #box-mobil {
+    width: 310px;
+    height: 200px;
+    position: absolute;
+    padding: 30px;
+    font-size: 12.5px;
+    background-color: rgb(123, 116, 116);
+    opacity: 0.8;
+    top: 200px;
+  }
+  #box-mobil .nadpi2 {
+    text-align: center;
+  }
+  #box-mobil button {
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    right: 125px;
+    bottom: 50px;
+  }
+  .con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 750px;
+    gap: 40px;
+  }
+  .con .grid-con1 {
+    display: grid;
+    grid-template-columns: 310px;
+    grid-template-rows: repeat(7, 35px);
+    height: 336px;
+    width: 310px;
+    row-gap: 15px;
+  }
+  .con .grid-con1 .zpr {
+    display: flex;
+    background-color: #bbb3b3;
+    grid-row: 5/8;
+  }
+  .con button {
+    width: 180px;
+    height: 48px;
+    font-size: 15px;
+    color: white;
+    top: -15px;
+    position: relative;
+    background-color: #7c7474;
+  }
+}
+@media screen and (min-width: 391px) {
+  .burger {
+    display: none !important;
+  }
+  .sekce1 {
+    background-image: url(hero\ image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #box-mobil {
+    visibility: hidden;
+  }
+  .grid-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 156px);
+    height: 774px;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+  }
+  .item3 {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+  }
+  .grid-con1 {
+    display: grid;
+    grid-template-columns: repeat(2, 390px);
+    grid-template-rows: repeat(5, 40px);
+    gap: 10px;
+  }
+  .zpr {
+    display: flex;
+    background-color: #bbb3b3;
+    grid-column: 1/3;
+    height: 233px;
+  }
+  .con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 744px;
+    gap: 40px;
+  }
+  .con button {
+    width: 180px;
+    height: 48px;
+    font-size: 15px;
+    color: white;
+    top: 75px;
+    position: relative;
+    background-color: #7c7474;
+  }
+  .huh {
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .grid-con2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .item1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-obr {
+    width: 350px;
+  }
+  footer {
+    height: 140px;
+    background: #CBC1B1;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    bottom: 0px;
+    position: relative;
+  }
+  footer p {
+    padding-top: 35px;
+  }
+  header {
+    height: 140px;
+    background: #CBC1B1;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+  }
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: -90px;
+}
+
+.logo {
+  margin-left: 150px;
+  margin-top: -5px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+a:hover {
+  background-color: #968f84;
+}
+
+.grid-con {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  top: 50%;
+  position: relative;
+}
+
+input {
+  background-color: #bbb3b3;
+  border: none;
+  color: black;
+}
+
+#box {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  bottom: 50px;
+  padding: 30px;
+  right: 50px;
+  opacity: 70%;
+  font-size: 20px;
+  background-color: rgb(123, 116, 116);
+  opacity: 0.8;
+}
+#box .nadpis1 {
+  text-align: center;
+}
+#box button {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  right: 270px;
+}
+
+.grid-cont {
+  display: grid;
+  height: 650px;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+}
+
+.item3 {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.sekce1 {
+  height: 919px;
+  width: 100%;
+}
+
+.button button {
+  width: 180px;
+  height: 48px;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  background-color: #7c7474;
+  display: block;
+  margin: 0 auto;
+}
+
+.burger {
+  top: 50px;
+  right: 50px;
+  position: absolute;
+}/*# sourceMappingURL=styly1.css.map */
