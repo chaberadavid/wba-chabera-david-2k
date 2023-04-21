@@ -364,4 +364,12 @@ input {
   top: 50px;
   right: 50px;
   position: absolute;
+}
+
+body {
+  margin: 0;
+}
+
+.active {
+  background-color: #7c7474;
 }/*# sourceMappingURL=styly1.css.map */
